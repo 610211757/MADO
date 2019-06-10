@@ -1,0 +1,13 @@
+if type == "Single Stage Single Point Attacks":  # attack = 8
+    select_section = [14379, 17100]
+elif type == "Single Stage Multi Point Attacks": # attack = 37
+    select_section = [434520,437329]
+elif type == "Multi Stage Single Point Attacks": # attack = 26  # bad
+    select_section = [197295,200740]
+elif type == "Multi Stage Multi Point Attacks": # attack = 22
+    select_section = [131917,134380]
+
+例 attack = 8 代表excel中第八次攻击点
+即：
+8	28/12/2015 13:10:10	13:26:13	DPIT-301	Value of DPIT is <40kpa	Set value of DPIT as >40kpa	No	Backwash process is started again and again; Normal operation stops; Decrease in water level of tank 401. Increase in water level of tank 301
+
